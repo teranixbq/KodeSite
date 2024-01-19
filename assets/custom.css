@@ -1,1 +1,32 @@
 /* Add custom CSS */
+
+.hero {
+  padding: 0px;
+}
+
+
+.hero-info {
+
+  @include respond-to('medium') {
+    flex: 0 1 65%;
+  }
+
+  .hero-title {
+    font-weight: 900;
+    margin-top: 0;
+    @include font-size('xl');
+
+    span {
+      opacity: 0;
+      transition: opacity 0.3s ease-in-out;
+    }
+
+    span.visible {
+      opacity: 1;
+    }
+  }
+}
+
+[data-theme="dark"] {
+  --color-primary: rgb(60,158,88);
+}

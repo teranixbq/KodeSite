@@ -1,8 +1,8 @@
 ### General
 baseURL = 'https://www.example.com/' # Enter your full production URL
 languageCode = 'en-us' # Default
-timeZone = 'America/New_York' # IANA timezone https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-title = 'Example Site' # Site title used throughout site
+timeZone = 'Asia/Jakarta' # IANA timezone https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+title = '' # Site title used throughout site
 
 ### SEO, Analytics & 3rd-party
 enableRobotsTXT = true # To overwrite the theme's robots.txt, add your own in the /layouts/ directory
@@ -20,7 +20,7 @@ defaultContentLanguage = 'en' # Default
 disableAliases = true # Set to true if using server (Netlify, .htaccess) for redirects instead of Hugo
 disableKinds = [] # Default
 enableEmoji = true # Use Emojis in content
-enableGitInfo = false # Default, enable to use git for lastmod (can be overwritten in frontmatter)
+enableGitInfo = true # Default, enable to use git for lastmod (can be overwritten in frontmatter)
 enableInlineShortcodes = false # Default, false is more security-friendly
 ignoreFiles = [] # Default
 # newContentEditor = 'code' # Set VS Code as default editor
@@ -29,7 +29,7 @@ paginatePath = 'page' # Default
 pluralizeListTitles = true # Default
 publishDir = 'public' # Default
 relativeURLs = false # Default
-summaryLength = 70 # Default
+summaryLength = 50 # Default
 titleCaseStyle = 'AP' # Default, other options: Chicago (slightly different) or Go (all first letters capitalized)
 
 ### Other
