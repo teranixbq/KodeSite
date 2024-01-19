@@ -34,5 +34,7 @@ I am an informatics student who wants to become a Back-end developer who focuses
 
 Update _Tuesday,16 Jan 2024 08:09:31_
 
-<center><iframe src="https://drive.google.com/file/d/15_bIHdY4_DIw20_Ih5L-m8f34goNPPDy/preview" width="800" height="600" allow="autoplay"></iframe></center>
+<div class="iframe-container">
+  <iframe src="https://drive.google.com/file/d/15_bIHdY4_DIw20_Ih5L-m8f34goNPPDy/preview" allow="autoplay"></iframe>
+</div>
 
