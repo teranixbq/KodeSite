@@ -59,7 +59,7 @@ linkedin = "hanieffba" # Comment out to disable
 # Enable or disable individual social share icons in posts
 [social.share]
 email = true
-facebook = false
-linkedin = false
+facebook = true
+linkedin = true
 reddit = false
 twitter = true

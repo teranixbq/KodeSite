@@ -1,7 +1,7 @@
 ---
 title: Hanief Fathul Bahri Ahmad
-subtitle: Minimal blog/portfolio theme with a focus on content creation and SEO best practices. An ideal choice for technical users jump-starting a personal brand.
-seo_title: Hugo Liftoff | Hugo theme for creators
+subtitle: Being a back-end developer is an interesting role, working behind the scenes as a bridge to connections. let's explore everything from here 🚀
+seo_title: Hanief FBA | Backend Developer
 
 primary_cta_page: "about"
 secondary_cta_page: "projects"
