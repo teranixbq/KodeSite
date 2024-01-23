@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>HFBA</title>
+    <link>https://dev.kodeteks.com/</link>
+    <description>Recent content in Hanief Fathul Bahri Ahmad on HFBA</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://dev.kodeteks.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Redis Basic Operations</title>
+      <link>https://dev.kodeteks.com/posts/redis-basic-operations/</link>
+      <pubDate>Wed, 17 Jan 2024 21:21:46 -0500</pubDate>
+      
+      <guid>https://dev.kodeteks.com/posts/redis-basic-operations/</guid>
+      <description>Basic Operations Redis</description>
+    </item>
+    
+  </channel>
+</rss>
