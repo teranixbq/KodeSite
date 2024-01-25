@@ -10,6 +10,6 @@ posts_section_heading: Recent Posts
 projects_section_heading: My Projects
 ---
 
-{{< projects 5 >}}
+{{< projects 6 >}}
 {{< recent-posts 5 >}}
 

@@ -36,7 +36,8 @@
         {{ with .Params.source_url }}
           <a class="btn-secondary" href="{{ . }}" target="_blank">Source</a>
         {{ end }}
-      </div>
+          <a class="btn-secondary" href="{{ .Permalink }}" target="_blank">Detail</a>
+        </div>
     {{ end }}
   </div>
 </div>
