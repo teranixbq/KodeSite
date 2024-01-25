@@ -1,7 +1,27 @@
 {{ define "main" }}
 <div class="container">
   <section class="section hero">
-    <div class="hero-info">
+    <div class="hero-owner">
+      {{ $avatar := .Site.Params.avatar }}
+      {{ $default_image := "images/default.png" }}
+      {{ $image := "" }}
+      {{ with $avatar }}
+        {{ $image = resources.Get $avatar }}
+      {{ else }}
+        {{ $image = resources.Get $default_image }}
+      {{ end }}
+      {{ if eq .Site.Params.grayscale_avatar true }}
+        {{ $image = $image | images.Filter (images.Grayscale)  }}
+      {{ end }}
+      <img class="hero-avatar"
+            src="{{ $image.RelPermalink }}"
+            width="{{- $image.Width -}}" height="{{- $image.Height -}}"
+            alt="Headshot or avatar belonging to the website owner"/>
+      {{ if eq .Site.Params.home_hero_socials true }}
+        {{ partial "general/social-links.html" . }}
+      {{ end }}
+    </div>
+       <div class="hero-info">
       <h1 class="hero-title">{{ .Title }}</h1>
       {{ with .Params.subtitle }}
         <p class="hero-subtitle">{{. | markdownify}}</p>
@@ -24,26 +44,6 @@
            {{ if $s_cta }}{{ with .Site.GetPage $s_cta }}{{ .LinkTitle }}{{ end }}{{ else }}Projects{{ end }}
         </a>
       </div>
-    </div>
-    <div class="hero-owner">
-      {{ $avatar := .Site.Params.avatar }}
-      {{ $default_image := "images/default.png" }}
-      {{ $image := "" }}
-      {{ with $avatar }}
-        {{ $image = resources.Get $avatar }}
-      {{ else }}
-        {{ $image = resources.Get $default_image }}
-      {{ end }}
-      {{ if eq .Site.Params.grayscale_avatar true }}
-        {{ $image = $image | images.Filter (images.Grayscale)  }}
-      {{ end }}
-      <img class="hero-avatar"
-            src="{{ $image.RelPermalink }}"
-            width="{{- $image.Width -}}" height="{{- $image.Height -}}"
-            alt="Headshot or avatar belonging to the website owner"/>
-      {{ if eq .Site.Params.home_hero_socials true }}
-        {{ partial "general/social-links.html" . }}
-      {{ end }}
     </div>
   </section>
   {{/*  Shortcodes from page content  */}}
