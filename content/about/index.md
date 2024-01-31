@@ -8,7 +8,7 @@ description: Learn more about my background and experience.
 
 ## Me
 
-I am an informatics student who wants to become a Back-end developer who focuses on Go and Javascript languages, and understands cloud computing to build web servers. continue to strive to develop interesting things to develop abilities and enthusiasm.
+I am an informatics student with a focus on Back-end development using Golang. I have expertise in building APIs and experience in cloud computing, especially with AWS and GCP. I am excited to continue learning and contributing my technical skills to the world of software development.
 
 ## Tech Stack
 
