@@ -32,7 +32,7 @@ I am an informatics student with a focus on Back-end development using Golang. I
 
 ## Curriculum Vitae
 
-Update _Tuesday,31 Jan 2024 08:09:31_
+Update _Tuesday,24 Feb 2024 01:40_
 
 <div class="iframe-container">
   <iframe src="https://drive.google.com/file/d/15_bIHdY4_DIw20_Ih5L-m8f34goNPPDy/preview" allow="autoplay"></iframe>
